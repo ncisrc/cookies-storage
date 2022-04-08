@@ -9,5 +9,8 @@ Happy Cookie Storage !
 ```bash
 npm i @ncisrc/cookies-storage
 ```
-
+## Use
+```javascript
+import { cookiesStorage } from "cookies-storage"
+```
 
