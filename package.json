@@ -1,0 +1,26 @@
+{
+  "name": "@ncisrc/cookies-storage",
+  "version": "1.0.0",
+  "description": "To work with cookies as you work with localStorage.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncisrc/cookies-storage.git"
+  },
+  "keywords": [
+    "cookies",
+    "localstorage",
+    "sessionstorage",
+    "storage",
+    "manage"
+  ],
+  "author": "Mathieu Lallemand",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ncisrc/cookies-storage/issues"
+  },
+  "homepage": "https://github.com/ncisrc/cookies-storage#readme"
+}
