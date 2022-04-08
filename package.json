@@ -1,6 +1,6 @@
 {
   "name": "@ncisrc/cookies-storage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "To work with cookies as you work with localStorage.",
   "main": "src/index.js",
   "scripts": {
