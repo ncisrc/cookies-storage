@@ -12,7 +12,7 @@ export const cookiesStorage = {
   },
 
   getItem(key) {
-    const cookies = document.cookie.split(';');
+    const cookies = document.cookie.split(';').map(keyValue => keyValue.trim());
     const result  = cookies.find(str => str.substring(0,key.length + 1) == `${key}=`);
     if (result) {
       const firstSplit = result.indexOf('=') + 1;
