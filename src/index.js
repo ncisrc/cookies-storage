@@ -3,7 +3,7 @@
  *
  * Author: Mathieu LALLEMAND
  */
-export const cookieManager = {
+export const cookiesStorage = {
 
   setItem(key, value="", days=1) {
     const date = new Date();
