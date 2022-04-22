@@ -51,7 +51,7 @@ function getOptionsString(options) {
  */
 function defaultOptions(options) {
   const defaultOptions = {
-      maxAge   : 36288000,     // 7 Days
+      maxAge   : 604800,       // 7 Days
       sameSite : 'Strict',     // Strict
       path     : '/',          // Only root
       secure   : true,         // Only HTTPS
