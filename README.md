@@ -32,6 +32,6 @@ options = {
 ```
 
 You'll find more about theses options in this page :
-Français : https://developer.mozilla.org/fr/docs/Web/HTTP/Headers/Set-Cookie
-English  : https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie
+- Français : https://developer.mozilla.org/fr/docs/Web/HTTP/Headers/Set-Cookie
+- English  : https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie
 
