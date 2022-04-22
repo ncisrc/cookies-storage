@@ -35,7 +35,7 @@ export const cookiesStorage = {
 function getOptionsString(options) {
   let str = "; ";
   options = defaultOptions(options);
-  if (options.maxAge)   str += `Max-Age=${options.expire}; `;
+  if (options.maxAge)   str += `Max-Age=${options.maxAge}; `;
   if (options.sameSite) str += `SameSite=${options.sameSite}; `;
   if (options.path)     str += `Path=${options.path}; `;
   if (options.secure)   str += `Secure; `;
