@@ -27,7 +27,7 @@ cookieStorage.setItem(key, value, {maxAge: 60});
 ### Default 'options' values
 ```javascript
 options = {
-  maxAge   : 36288000, // 7 days
+  maxAge   : 604800, // 7 days
   sameSite : 'Strict',
   path     : '/',
   secure   : true,
