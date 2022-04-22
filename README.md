@@ -13,9 +13,13 @@ npm i @ncisrc/cookies-storage
 ```javascript
 import { cookiesStorage } from "cookies-storage"
 
-cookieStorage.setItem(key, value, options)
+cookieStorage.setItem(key, value);
 const value = cookieStorage.getItem(key);
+```
 
+You can change some cookies options with the third parameter
+```javascript
+cookieStorage.setItem(key, value, {maxAge: 60});
 ```
 
 ## Options
