@@ -7,7 +7,6 @@ export const cookiesStorage = {
 
   setItem(key, value="", options) {
     const cookieString = `${key}=${value}` + getOptionsString(options);
-    console.log(cookieString);
     document.cookie = cookieString;
   },
 
