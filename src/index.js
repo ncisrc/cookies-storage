@@ -6,12 +6,12 @@
 export const cookiesStorage = {
 
   setItem(key, value="", options) {
-    const cookieString = `${key}=${encodeURI(value)}` + getOptionsString(options);
+    const cookieString = `${key}=${encodeURIComponent(value)}` + getOptionsString(options);
     document.cookie = cookieString;
   },
 
   getItem(key) {
-    const cookies = document.cookie.split(';').map(keyValue => decodeURI(keyValue).trim());
+    const cookies = document.cookie.split(';').map(keyValue => decodeURIComponent(keyValue).trim());
     const result  = cookies.find(str => str.substring(0,key.length + 1) == `${key}=`);
     if (result) {
       const firstSplit = result.indexOf('=') + 1;
