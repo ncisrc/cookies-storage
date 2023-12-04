@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "@ncisrc/cookies-storage",
   "version": "1.0.2",
   "description": "To work with cookies as you work with localStorage.",
